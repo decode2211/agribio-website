@@ -1636,3 +1636,116 @@ h5:hover::before {
 @media (hover: hover) {
   /* keep hover styles */
 }
+
+@media (max-width: 768px) {
+
+  /* ---------- GLOBAL ---------- */
+  body {
+    overflow-x: hidden;
+  }
+
+  section {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  /* ---------- NAVBAR ---------- */
+  .navbar {
+    padding: 14px 20px;
+    flex-wrap: wrap;
+  }
+
+  .nav-links {
+    display: none; /* hide desktop nav */
+  }
+
+  /* ---------- HERO ---------- */
+  .hero {
+    height: auto;
+    min-height: 100vh;
+    padding-top: 120px;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 20px;
+  }
+
+  .hero-title {
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .hero-left {
+    text-align: center;
+  }
+
+  /* ---------- WHY AGRIBIO ---------- */
+  .why-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .why-leaf {
+    width: 100%;
+    height: auto;
+  }
+
+  .why-leaf img {
+    height: 320px;
+    border-radius: 24px;
+  }
+
+  /* ---------- PRODUCTS ---------- */
+  .showcase-grid {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+  /* ---------- ECOSYSTEM (HEX) ---------- */
+  .ecosystem-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .hex-wrapper {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+
+  .hex {
+    position: static;
+    width: 100%;
+    height: 140px;
+    margin-bottom: 16px;
+    clip-path: none;
+    border-radius: 16px;
+  }
+
+  /* ---------- SERVICES ---------- */
+  .service-row {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+  .service-image {
+    height: 240px;
+  }
+
+  /* ---------- GLOBAL PRESENCE ---------- */
+  .global-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  /* ---------- CONTACT ---------- */
+  .contact-container {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+}
