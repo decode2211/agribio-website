@@ -188,6 +188,18 @@ body {
 
   transform: translateY(-20px); /* subtle lift */
 }
+.hero-content h1,
+.hero-content h2 {
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+.hero-title {
+  color: #ffffff;
+  -webkit-text-stroke: 1px rgba(0,0,0,0.5);
+  text-shadow:
+    0 3px 10px rgba(0,0,0,0.7),
+    0 0 12px rgba(46,125,50,0.7);
+}
+
 
 /* ================================
    LEFT SIDE
