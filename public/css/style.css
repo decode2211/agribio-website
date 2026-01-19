@@ -1541,7 +1541,15 @@ body {
 
 /* Platform Colors */
 .social-icons li:nth-child(1) a::before { background: #3b5999; }
-.social-icons li:nth-child(2) a::before { background: #55acee; }
+.social-icons li:nth-child(2) a::before {
+  background: linear-gradient(
+    45deg,
+    #f58529,
+    #dd2a7b,
+    #8134af,
+    #515bd4
+  );
+}
 .social-icons li:nth-child(3) a::before { background: #0077b5; }
 .social-icons li:nth-child(4) a::before { background: #ff0000; }
 
